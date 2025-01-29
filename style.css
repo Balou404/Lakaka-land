@@ -9,7 +9,7 @@
 
 
 .image {
-    content: url("canard.png");
+    content: url("image/canard.png");
     position: absolute;
     top: 10%;
     left: 10%;
@@ -43,7 +43,7 @@
     width : 350px;
     height : 710px;
     margin-right: 10%;
-    content: url("image.png");
+    content: url("image/image.png");
     margin: 30px 30px 15px 0;
     transform: translate(0px, -145px);
 }
