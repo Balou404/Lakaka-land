@@ -1,0 +1,92 @@
+#rectangle{
+    width  : 1920px;
+    height : 115px;
+    background : rgb(90, 86, 86);
+    margin: 0;
+}
+
+.image {
+    content: url("image/canard.png");
+    top: 10%;
+    left: 10%;
+    transform: translate(1585px, -129px);
+    height: 95px;
+    position: relative;
+    border: 3px solid 
+}
+
+.titre{
+    line-height : 100px;
+    font-weight: 250px; 
+    color :darkorange; 
+    padding-left: 20px; /*ceci sert à mettre un espace au début du titre*/
+    }
+
+#centre{
+    width : 1500px;
+    height : 700px;
+    background : rgb(90, 86, 86);
+    margin : 25px;
+    float: left;
+    padding: 5px;
+    transform: translate(0px, -170px);
+}
+
+#image_droite{
+    width : 350px;
+    height : 710px;
+    content: url("image/image.png");
+    margin: 30px 30px 0px 0;
+    transform: translate(0px, -145px);
+}
+
+/* barre du haut bien mise*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* centrer le tous */
+.boutons {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: #333;
+    padding: 10px 0;
+    transform: translate(0px, -145px);
+}
+      
+/* Texte lisible  */
+  .bouton {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #555;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  a:hover {
+    color: rgb(201, 204, 9); /* Changer la couleur du texte au survol */
+    transform: scale(1.2); /* Agrandit légèrement le texte */
+    font-weight: bold; /* Met le texte en gras */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Ombre portée autour du texte */
+    background-color: rgba(0, 0, 0, 0.1); /* Fond semi-transparent */
+    transform: rotate(3deg); /* Fait tourner le texte de 10 degrés */
+  }
+   
+    a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgb(219, 216, 18); /* Couleur de la ligne */
+    transition: width 0.3s ease;
+  }
+
+   a:hover::after {
+    width: 100%; /* La ligne prend toute la largeur du texte */
+  }
