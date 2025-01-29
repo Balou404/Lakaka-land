@@ -1,57 +1,54 @@
 #rectangle{
-    width  : 1903px;
+    width  : 1900px;
     height : 115px;
     background : rgb(90, 86, 86);
-    margin-left: auto;
-    margin-right: auto;
     margin: 0;
 }
 
-
 .image {
     content: url("image/canard.png");
-    position: absolute;
     top: 10%;
     left: 10%;
     transform: translate(1585px, -129px);
     height: 95px;
     position: relative;
     border: 3px solid 
-  }
+}
 
 .titre{
-    color:rgb(255, 255, 255);
-    text-align: left;
     line-height : 100px;
     font-weight: 250px; 
-    color :darkorange;
+    color :darkorange; 
+    padding-left: 20px; /*ceci sert à mettre un espace au début du titre*/
+    }
 
-}
 #centre{
-    width : 1500px;
-    height : 700px;
+    width : 1855px;
+    height : 500px;
     background : rgb(90, 86, 86);
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0px 30px 15px 0;
+    margin : 25px;
     float: left;
     padding: 5px;
-    transform: translate(0px, -145px);
+    transform: translate(0px, -155px);
+    border-radius: 25px;
 }
 
-#image_droite{
-    width : 350px;
-    height : 710px;
-    margin-right: 10%;
-    content: url("image/image.png");
-    margin: 30px 30px 15px 0;
-    transform: translate(0px, -145px);
+#rectangle_bas{
+    width : 1855px;
+    height : 150px;
+    background : rgb(199, 149, 149);
+    margin : 25px;
+    padding: 5px;
+    transform: translate(0px, 420px);
 }
+
+
 
 /* barre du haut bien mise*/
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: rgb(223, 192, 146);
 }
 
 /* centrer le tous */
@@ -60,12 +57,11 @@ body {
     justify-content: center;
     gap: 60px;
     background-color: #333;
-    padding: 10px 0;
+    padding: 15px 0;
     transform: translate(0px, -145px);
-  }
+}
       
-
-  /* Texte lisible  */
+/* Texte lisible  */
   .bouton {
     text-decoration: none;
     color: white;
@@ -75,6 +71,7 @@ body {
     border-radius: 5px;
     transition: background-color 0.3s ease;
   }
+
   a:hover {
     color: rgb(201, 204, 9); /* Changer la couleur du texte au survol */
     transform: scale(1.2); /* Agrandit légèrement le texte */
@@ -83,6 +80,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1); /* Fond semi-transparent */
     transform: rotate(3deg); /* Fait tourner le texte de 10 degrés */
   }
+   
     a::after {
     content: '';
     position: absolute;
@@ -93,6 +91,7 @@ body {
     background-color: rgb(219, 216, 18); /* Couleur de la ligne */
     transition: width 0.3s ease;
   }
+
    a:hover::after {
     width: 100%; /* La ligne prend toute la largeur du texte */
   }
