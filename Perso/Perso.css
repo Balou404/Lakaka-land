@@ -1,5 +1,5 @@
 #rectangle{
-  width  : 1920px;
+  width  : 100%;
   height : 115px;
   background : rgb(112, 70, 116);
   margin: 0;
@@ -8,8 +8,8 @@
   content: url("../image/Larry.jpg");
   top: 10%;
   left: 10%;
-  transform: translate(1585px, -129px);
-  height: 95px;
+  transform: translate(1525%, -127%);
+  height: 93.5px;
   position: relative;
   border: 3px solid 
 }
@@ -28,7 +28,7 @@
   height : 70px;
   background : rgb(90, 86, 86);
   margin: auto;
-  margin-top: -115px;
+  margin-top: -100px;
   border-radius: 45px;
   height: 70px; /* hauteur du parent */
   line-height: 70px; /* hauteur de ligne (identique) */
@@ -36,76 +36,570 @@
 }
 #présentation{
   font-size: 25px; 
-  color :rgb(255, 255, 255); 
+  color :rgb(255, 255, 255); font-weight: bolder;
+  text-align: center;
+}
+
+
+.aide{
+  position: relative;
+  width : 22%;height : 100%; background : rgb(0, 0, 0);
+  transform: translate(82.5%, 525%);
+  border-radius: 50px;
+}
+#aide{
+  font-size: 150%; 
+  color :rgb(255, 255, 255);
+  text-align: center;
+}
+.aideb1{
+  width : 25%; height : 75%; background : rgb(0, 0, 0);
+  transform: translate(188.5%, 425%);
+  border-radius: 50px;
+}
+#aideb1{
+  font-size: 150%; 
+  color :rgb(255, 255, 255);
+  text-align: center;
+}
+.aideb2{
+  width : 15%; height : 100%; background : rgb(0, 0, 0);
+  transform: translate(525%, 325%);
+  border-radius: 50px;
+}
+#aideb2{
+  font-size: 150%; 
+  color :rgb(255, 255, 255);
   text-align: center;
 }
 
 
 
-.perso1{
-  width : 1500px;
-  height : 175px;
-  background : rgb(90, 86, 86);
-  transform: translate(275px, 145px);
-  border-radius: 10px;
+
+.tous1{
+  position: absolute;
+  top: 50%;
+  left: 2.5%;
+  width: 95%; height : 100%;
+  transform: translate(0%, -15%);
 }
-#mastermind{
-  font-size: 25px; 
-  color :rgb(255, 255, 255);
-  padding-left: 20px;
-}
-#masterimg{
+#p1img{
     content: url("../image/Mastermind.png");
-    position: relative;
-    top: -23.5%;
-    left: -15%;
-    width : 200px;
-    height : 200px;
+    width : 11.5%; height : 21.25%;
 }
-
-
-
-.perso2{
-  width : 1500px;
-  height : 175px;
-  background : rgb(90, 86, 86);
-  transform: translate(275px, 225px);
+#perso1{
+  width : 28%; height : 21%; background : rgb(122, 118, 118);
   border-radius: 10px;
+  transform: translate(50%, 100%);
 }
-#larry{
-  font-size: 25px; 
-  color :rgb(255, 255, 255);
-  padding-left: 20px;
+#p1{
+  font-size: 150%;font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
 }
-#larryimg{
+#p1b1{
+  width : 30%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(150%, -103.5%);
+}
+#p1b1t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p1b2{
+  width : 19%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(415%, -203.5%);
+}
+#p1b2t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#transition1{
+  width : 100%; height : 18px;
+  background : rgb(0, 0, 0);
+  transform: translate(0%, -2050%);
+}
+
+
+.tous2{
+  position: absolute;
+  top: 50%;
+  left: 2.5%;
+  width: 95%; height : 100%;
+  transform: translate(0%, 15%);
+}
+#p2img{
     content: url("../image/Larry.jpg");
-    position: relative;
-    top: -23.5%;
-    left: -15%;
-    width : 200px;
-    height : 200px;
+    width : 11.5%; height : 21.25%;
 }
-
-
-.perso3{
-  width : 1500px;
-  height : 175px;
-  background : rgb(90, 86, 86);
-  transform: translate(275px, 305px);
+#perso2{
+  width : 28%; height : 21%;background : rgb(122, 118, 118);
   border-radius: 10px;
+  transform: translate(50%, 100%);
 }
-#Oupi_Goupi{
-  font-size: 25px; 
-  color :rgb(255, 255, 255);
-  padding-left: 20px;
+#p2{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
 }
-#Oupi_Goupiimg{
+#p2b1{
+  width : 30%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(150%, -103.5%);
+}
+#p2b1t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p2b2{
+  width : 19%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(415%, -203.5%);
+}
+#p2b2t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.5%;
+}
+#transition2{
+  width : 100%; height : 18px;
+  background : rgb(0, 0, 0);
+  transform: translate(0%, -2050%);
+}
+
+
+.tous3{
+  position: absolute;
+  top: 50%;
+  left: 2.5%;
+  width: 95%; height : 100%;
+  transform: translate(0%, 45%);
+}
+#p3img{
+    content: url("../image/Larry_malicieux.png");
+    width : 11.5%; height : 21.25%;
+}
+#perso3{
+  width : 28%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(50%, 100%);
+}
+#p3{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p3b1{
+  width : 30%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(150%, -103.5%);
+}
+#p3b1t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p3b2{
+  width : 19%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(415%, -203.5%);
+}
+#p3b2t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#transition3{
+  width : 100%; height : 18px;
+  background : rgb(0, 0, 0);
+  transform: translate(0%, -2050%);
+}
+
+
+
+
+.tous4{
+  position: absolute;
+  top: 50%; left: 2.5%;
+  width: 95%; height : 100%;
+  transform: translate(0%, 75%);
+}
+#p4img{
     content: url("../image/Oupi_Goupi.png");
-    position: relative;
-    top: -23.5%;
-    left: -15%;
-    width : 200px;
-    height : 200px;
+    width : 11.5%; height : 21.25%;
+}
+#perso4{
+   width : 28%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(50%, 100%);
+}
+#p4{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p4b1{
+  width : 30%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(150%, -103.5%);
+}
+#p4b1t{
+  font-size: 130%; font-weight: bolder;
+  color :rgb(0, 0, 0,);
+  padding-left: 2.25%;
+}
+#p4b2{
+  width : 19%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(415%, -203.5%);
+}
+#p4b2t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#transition4{
+  width : 100%; height : 18px;
+  background : rgb(0, 0, 0);
+  transform: translate(0%, -2050%);
+}
+
+
+.tous5{
+  position: absolute;
+  top: 50%;left: 2.5%;
+  width: 95%; height : 100%;
+  transform: translate(0%, 105%);
+}
+#p5img{
+    content: url("../image/James.png");
+    width : 11.5%; height : 21.25%;
+}
+#perso5{
+  width : 28%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(50%, 100%);
+}
+#p5{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p5b1{
+  width : 30%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(150%, -103.5%);
+}
+#p5b1t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p5b2{
+  width : 19%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(415%, -203.5%);
+}
+#p5b2t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#transition5{
+  width : 100%; height : 18px;
+  background : rgb(0, 0, 0);
+  transform: translate(0%, -2050%);
+}
+
+
+
+.tous6{
+  position: absolute;
+  top: 50%;left: 2.5%;
+  width: 95%; height : 100%;
+  transform: translate(0%, 135%);
+}
+#p6img{
+    content: url("../image/John.png");
+    width : 11.5%; height : 21.25%;
+}
+#perso6{
+  width : 28%; height : 21%; background : rgb(122, 118, 118); 
+  border-radius: 10px;
+  transform: translate(50%, 100%);
+}
+#p6{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p6b1{
+  width : 30%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(150%, -103.5%);
+}
+#p6b1t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p6b2{
+  width : 19%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(415%, -203.5%);
+}
+#p6b2t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#transition6{
+  width : 100%; height : 18px;
+  background : rgb(0, 0, 0);
+  transform: translate(0%, -2050%);
+}
+
+
+.tous7{
+  position: absolute;
+  top: 50%;left: 2.5%;
+  width: 95%; height : 100%;
+  transform: translate(0%, 165%);
+}
+#p7img{
+    content: url("../image/la_créature.png");
+    width : 11.5%; height : 21.25%;
+}
+#perso7{
+  width : 28%; height : 21%; background : rgb(122, 118, 118); 
+  border-radius: 10px;
+  transform: translate(50%, 100%);
+}
+#p7{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p7b1{
+  width : 30%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(150%, -103.5%);
+}
+#p7b1t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p7b2{
+  width : 19%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(415%, -203.5%);
+}
+#p7b2t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#transition7{
+  width : 100%; height : 18px;
+  background : rgb(0, 0, 0);
+  transform: translate(0%, -2050%);
+}
+
+
+.tous8{
+  position: absolute;
+  top: 50%;
+  left: 2.5%;
+  width: 95%; height : 100%;
+  transform: translate(0%, 195%);
+}
+#p8img{
+    content: url("../image/Gobeul_le_squelette.png");
+    width : 11.5%; height : 21.25%;
+}
+#perso8{
+  width : 28%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(50%, 100%);
+}
+#p8{
+  font-size: 150%;font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p8b1{
+  width : 30%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(150%, -103.5%);
+}
+#p8b1t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p8b2{
+  width : 19%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(415%, -203.5%);
+}
+#p8b2t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#transition8{
+  width : 100%; height : 18px;
+  background : rgb(0, 0, 0);
+  transform: translate(0%, -2050%);
+}
+
+
+.tous9{
+  position: absolute;
+  top: 50%;
+  left: 2.5%;
+  width: 95%; height : 100%;
+  transform: translate(0%, 225%);
+}
+#p9img{
+    content: url("../image/electricien.png");
+    width : 11.5%; height : 21.25%;
+}
+#perso9{
+  width : 28%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(50%, 100%);
+}
+#p9{
+  font-size: 150%;font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p9b1{
+  width : 30%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(150%, -103.5%);
+}
+#p9b1t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p9b2{
+  width : 19%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(415%, -203.5%);
+}
+#p9b2t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#transition9{
+  width : 100%; height : 18px;
+  background : rgb(0, 0, 0);
+  transform: translate(0%, -2050%);
+}
+
+
+.tous10{
+  position: absolute;
+  top: 50%;
+  left: 2.5%;
+  width: 95%; height : 100%;
+  transform: translate(0%, 255%);
+}
+#p10img{
+    content: url("../image/lobotomisateur.png");
+    width : 11.5%; height : 21.25%;
+}
+#perso10{
+  width : 28%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(50%, 100%);
+}
+#p10{
+  font-size: 150%;font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p10b1{
+  width : 30%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(150%, -103.5%);
+}
+#p10b1t{
+  font-size: 125%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p10b2{
+  width : 19%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(415%, -203.5%);
+}
+#p10b2t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#transition10{
+  width : 100%; height : 18px;
+  background : rgb(0, 0, 0);
+  transform: translate(0%, -2050%);
+}
+
+
+.tous11{
+  position: absolute;
+  top: 50%;
+  left: 2.5%;
+  width: 95%; height : 100%;
+  transform: translate(0%, 285%);
+}
+#p11img{
+    content: url("../image/l\'homme_génial.png");
+    width : 11.5%; height : 21.25%;
+}
+#perso11{
+  width : 28%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(50%, 100%);
+}
+#p11{
+  font-size: 130%;font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p11b1{
+  width : 30%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(150%, -103.5%);
+}
+#p11b1t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#p11b2{
+  width : 19%; height : 21%; background : rgb(122, 118, 118);
+  border-radius: 10px;
+  transform: translate(415%, -203.5%);
+}
+#p11b2t{
+  font-size: 150%; font-weight: bolder;
+  color :rgb(0, 0, 0);
+  padding-left: 2.25%;
+}
+#transition11{
+  width : 100%; height : 18px;
+  background : rgb(0, 0, 0);
+  transform: translate(0%, -2050%);
 }
 
 
@@ -116,7 +610,9 @@
 body {/* barre du haut bien mise*/
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: rgb(201, 189, 189);
+  background-color: rgb(40, 88, 119);
+  height : 100%;
+  width : 100%;
 }
 .boutons {/* centrer le tous */
   display: flex;
